@@ -1,0 +1,1 @@
+install [AutoHotkey](https://www.autohotkey.com/) and run [macos-hotkey-for-win.ahk](macos-hotkey-for-win.ahk)
