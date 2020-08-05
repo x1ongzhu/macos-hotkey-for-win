@@ -54,3 +54,7 @@ return
 #BackSpace::
 Send {Delete}
 return
+
+#s::
+Send ^s
+return
