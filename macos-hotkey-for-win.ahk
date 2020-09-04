@@ -7,6 +7,7 @@ if not A_IsAdmin
 
 ;无环境变量
 #NoEnv
+#SingleInstance force
 
 ;高进程
 Process Priority,,High
@@ -19,42 +20,50 @@ If !(A_PriorHotKey = A_ThisHotKey and A_TimeSincePriorHotkey < 500)
   Send ^{Space}
 return
 
-#c::
+!c::
 Send ^c
 return
 
-#v::
+!v::
 Send ^v
 return
 
-#a::
+!a::
 Send ^a
 return
 
-#z::
+!z::
 Send ^z
 return
 
-#x::
+!x::
 Send ^x
 return
 
-#w::
+!w::
 Send ^w
 return
 
-#q::
+!q::
 Send !{F4}
 return
 
-#f::
+!f::
 Send ^f
 return
 
-#BackSpace::
+!BackSpace::
 Send {Delete}
 return
 
-#s::
+!s::
 Send ^s
+return
+
+!r::
+Send ^r
+return
+
+!LButton::
+Send ^{LButton}
 return
